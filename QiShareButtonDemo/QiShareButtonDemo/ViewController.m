@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-   
+    
     QiShareButton *btn = [[QiShareButton alloc]initWithFrame:CGRectZero];
     btn.backgroundColor = [UIColor cyanColor];
     [btn setTitle:@"QiShareBtn" forState:UIControlStateNormal];
